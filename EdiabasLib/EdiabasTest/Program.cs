@@ -143,6 +143,7 @@ namespace EdiabasTest
                     ediabas.EdInterfaceClass = edInterface;
                     ediabas.ProgressJobFunc = ProgressJobFunc;
                     ediabas.ErrorRaisedFunc = ErrorRaisedFunc;
+
                     if (!string.IsNullOrEmpty(comPort))
                     {
                         // ReSharper disable ConditionIsAlwaysTrueOrFalse

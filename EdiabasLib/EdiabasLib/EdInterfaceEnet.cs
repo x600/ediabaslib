@@ -364,6 +364,7 @@ namespace EdiabasLib
                 base.Ediabas = value;
 
                 string prop = EdiabasProtected?.GetConfigProperty("EnetRemoteHost");
+
                 if (prop != null)
                 {
                     RemoteHostProtected = prop;
