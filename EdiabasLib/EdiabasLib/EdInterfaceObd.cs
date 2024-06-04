@@ -107,6 +107,7 @@ namespace EdiabasLib
         protected static readonly CultureInfo Culture = CultureInfo.CreateSpecificCulture("en");
         protected static readonly byte[] ByteArray0 = new byte[0];
         protected static readonly long TickResolMs = Stopwatch.Frequency / 1000;
+
 #if USE_SERIAL_PORT
         protected static System.IO.Ports.SerialPort SerialPort;
         protected static AutoResetEvent CommReceiveEvent;
